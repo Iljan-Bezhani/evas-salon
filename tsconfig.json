@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "target": "es2020",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "es5",
-      "es2020"
-    ],
+    "lib": ["dom", "dom.iterable", "es5", "es2020"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
